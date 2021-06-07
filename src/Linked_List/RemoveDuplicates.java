@@ -24,6 +24,5 @@ class Program {
 				CurrentNode.next = NextDistinctNode;
 				CurrentNode = NextDistinctNode;
 			}
-		
     return linkedList;
   }
