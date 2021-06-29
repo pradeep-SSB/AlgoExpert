@@ -10,6 +10,7 @@ class Program {
 			hare = hare.next.next;
 		}
 		tortoise = head;
+	  
 		while(tortoise != hare){	// mathematically returns the LoopNode 
 			tortoise = tortoise.next;
 			hare = hare.next;
