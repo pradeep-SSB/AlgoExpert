@@ -5,7 +5,7 @@ class Program {
     // Write your code here.
 		LinkedList tortoise = head.next;  //key : initilization
 		LinkedList hare = head.next.next;
-		while(tortoise != hare){       // detects loop
+		while(tortoise != hare){          // detects loop
 			tortoise = tortoise.next;
 			hare = hare.next.next;
 		}
